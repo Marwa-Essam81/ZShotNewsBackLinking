@@ -7,8 +7,8 @@ This is the source code for the paper with the title: Zero-Shot Reranking with D
 The code is written using both **Java (version "14.0.1")** and **Python (Python 3.8).**
 
 **Required Data: **
-- You need to download first the Washington Post collection file: **https://trec.nist.gov/data/wapost/**. The dataset is publicly available but you need to sign first an organizational aggrement form. Make Sure you request V3 of this collection.
-- For preprocessing the news articles, you need the stop words : ** StopWordsSEO.txt **file provided in this repository. 
+- You need to download first the Washington Post collection file: **https://trec.nist.gov/data/wapost/**. The dataset is publicly available but you need to sign first an organizational aggrement form. Make Sure you request V3 of this collection. If you want to use this code without this dataset, then create some sample news articles in a collection file. An example of how an article's JSON object is formatted is given in the file: **NewsArticleFormat.txt**.
+- For preprocessing the news articles, you need the stop words : **StopWordsSEO.txt** file provided in this repository. 
 
 **1) Indexing the data:**
 * Export the archive **Java.zip** archive.
