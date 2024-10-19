@@ -2,8 +2,6 @@ Ths is the  source code for the paper: **Zero-Shot Reranking with Dense Encoder 
 
 # ZeroShotRerankingNBL
 
-This is the source code for the paper with the title: Zero-Shot Reranking with Dense Encoder Models for News Background Linking. 
-
 The code is written using both **Java (version "14.0.1")** and **Python (Python 3.8).**
 
 **Required Data: **
