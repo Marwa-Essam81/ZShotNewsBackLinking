@@ -21,7 +21,7 @@ The code is written using both **Java (version "14.0.1")** and **Python (Python 
 
 
 **3) Retrieve the Candidate Background Links:**
-* Run <BackgroundLinking.class>. You will need the provided file **Queries.txt ** that contains the unique ids for the query articles.
+* Run **<BackgroundLinking.class>**. You will need the provided file **Queries.txt** that contains the unique ids for the query articles.
 
 **4) Rerank the candidate background links:**
 * Export the archive **Python.zip** provided in this repository
