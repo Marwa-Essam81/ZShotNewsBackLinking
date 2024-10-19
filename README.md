@@ -32,7 +32,8 @@ The code is written using both **Java (version "14.0.1")** and **Python (Python 
 	- Encoding the query articles and save its encodings on desk.
 	- Encoding the candidate background links and save its encodings on desk.
 
-* Kindly note that we preferred to encode the query and candidates first then load the encodings from the encoding files during the matching process for efficiency purposes. This way, one can choose to run the encoding methods either on a CPU or a GPU. 
+* Kindly note that we preferred to encode the query and candidates first then load the encodings from the encoding files during the matching process for efficiency purposes. This way, one can choose to run the encoding methods either on a CPU or a GPU.
+* Note that the file PromCSEModel.py is taken from the Open license PromCSE model respository : https://github.com/YJiangcm/PromCSE/tree/master (file promcse/models.py) but renamed for clarity
 
 * The encoding process for each model varies given the model's required input length as shown in the paper. However, there are common methods that are used by all models (such as matching a candidate article's encoding to the query passages encoding). The file **<utils.py>** has these common methods. 
 
