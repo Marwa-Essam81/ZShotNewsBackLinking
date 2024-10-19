@@ -1,4 +1,4 @@
-Ths is the  source code for the paper: **Zero-Shot Reranking with Encoder Models for News Background Linking**
+Ths is the  source code for the paper: **Zero-Shot Reranking with Dense Encoder Models for News Background Linking**
 
 # ZeroShotRerankingNBL
 
